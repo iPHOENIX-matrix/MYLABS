@@ -1,0 +1,497 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  line-height: 180%;
+  text-align: center;
+  background-color: #1b1717;
+}
+
+/*Navbar*/
+.Navbar {
+  background-color: #1b1a17;
+}
+
+.navbar-brand {
+  padding-right: 100px;
+}
+
+h5 {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Allura', cursive;
+}
+
+.Home {
+  padding-top: 8.5px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.Home:hover {
+  color: #fefecc;
+}
+.B{
+  font-size: 25px;
+}
+.B:hover{
+    color: #fefecc;
+}
+.MW {
+  padding-top: 8.5px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.MW:hover {
+  color: #fefecc;
+}
+
+.BS {
+  padding-top: 8.5px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+}
+.BS:hover{
+    color: #fefecc;
+}
+
+.CS {
+  padding-top: 8.5px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+}
+.CS:hover{
+    color: #fefecc;
+}
+
+#NavLogo {
+  height: 7rem;
+  width: 8rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+/*Search Bar*/
+.hero {
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+#Search-Box {
+  border-radius: 55px;
+  padding: 10px;
+  background: #f0f3ff;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+#Search-Icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+input {
+  font-size: 10px;
+  width: 250px;
+  border: 0;
+  background: transparent;
+  outline: none;
+}
+
+#r1 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.Blog-Name {
+  text-align: left;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Bangers', cursive;
+}
+
+.Blog-Name-Sub {
+  text-align: left;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  font-family: 'Bigelow Rules', cursive;
+}
+
+/*Top Container*/
+.caousel-item {
+  height: 50vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  background-size: cover;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.5;
+}
+
+.ChangeW {
+  position: absolute;
+  top: -1100%;
+  right: 10%;
+  font-size: 4rem;
+  font-family: 'Abril Fatface', cursive;
+  color: #000000;
+}
+
+.ChangeP {
+  position: absolute;
+  top: -1000%;
+}
+
+.C1img1 {
+  position: relative;
+  background-position: center;
+  background-size: 100%;
+  min-width: 100%;
+  height: 700px;
+  width: 100px;
+}
+.C1img2 {
+  position: relative;
+  background-position: center;
+  background-size: 100%;
+  min-width: 100%;
+  height: 700px;
+  width: 100px;
+}
+.C1img3 {
+  position: relative;
+  background-position: center;
+  background-size: 100%;
+  min-width: 100%;
+  height: 700px;
+  width: 100px;
+}
+.C2img1 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+  height: 700px;
+  width: 100px;
+}
+.C2img2 {
+  position: relative;
+  background-position: center;
+  background-size: 100%;
+  min-width: 100%;
+  height: 700px;
+  width: 100px;
+}
+.C2img3 {
+  position: relative;
+  background-position: center;
+  background-size: 100%;
+  min-width: 100%;
+  height: 700px;
+  width: 100px;
+}
+
+
+/*Middle Container*/
+.pw {
+  color: #fff;
+  text-decoration:none;
+  font-family: 'Bebas Neue', cursive;
+
+}
+.pw:hover{
+  color: #B61919;
+}
+
+.Middle-Container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background: #222;
+  ;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: minmax(100px, auto);
+  margin: 40px;
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+}
+
+.container .box {
+  background: #333;
+  padding: 20px;
+  display: grid;
+  font-size: 3rem;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.container .box:hover {
+  background: #e91e63;
+}
+
+.container .box img {
+  position: relative;
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.container .box:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.container .box:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.container .box:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.container .box:nth-child(4) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.container .box:nth-child(5) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.container .box:nth-child(6) {
+  grid-column: span 4;
+  grid-row: span 2;
+}
+
+@media (max-width: 991px)
+{
+  .container
+  {
+    grid-template-columns: unset !important;
+    grid-template-rows: unset !important;
+  }
+}
+
+/*Cards*/
+#Box1{
+  background-image: url(../Images/Background/rbtlg7.jpg);
+  background-size: cover;
+  opacity:
+}
+.pw{
+  color: #fff;
+  text-decoration: none;
+
+}
+.pw:hover {
+  color: #B61919;
+}
+
+#Box2{
+  background-image: url(../Images/Background/rbtlg2.jpg);
+  background-size: cover;
+}
+
+#Box3{
+  background-image: url(../Images/Background/rbtlg3.jpg);
+  background-size: cover;
+}
+
+#Box4{
+  background-image: url(../Images/Background/rbtlg4.jpg);
+  background-size: cover;
+}
+
+#Box5{
+  background-image: url(../Images/Background/rbtlg5.jpg);
+  background-size: cover;
+}
+#Box6{
+  background-image: url(../Images/Background/rbtlg6.jpeg);
+  background-size: cover;
+}
+/*Footer*/
+#Footer {
+  background-color: #4a503d;
+  color: #fff;
+  font-family: 'Permanent Marker', cursive;
+}
+
+/*Footer Secondary Color code is 4a503d*/
+#Footer .art {
+  background-color: #1b1a17;
+  padding: 16px;
+  padding-top: 48px;
+  clip-path: polygon(0% 5%, 15% 0%, 100% 10%, 100% 100%, 0% 100%);
+}
+
+.FollowH {
+  color: #fff;
+}
+
+.PhoneN {
+  display: inline-block;
+}
+
+.phoneimg {
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+.mailM {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.mail {
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+.End-Line {
+  color: #fff;
+}
+
+.Footer-Link {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Footer-Link:hover {
+  color: #fefecc;
+}
+
+.FootD {
+  width: 200px;
+  height: 10px;
+}
+
+.FootRA {
+  text-decoration: none;
+}
+
+.FootR {
+  color: #fff;
+}
+
+.FootR:hover {
+  color: #fefecc;
+}
+
+.FootPubA {
+  text-decoration: none;
+}
+
+.FootPub {
+  color: #fff;
+}
+
+.FootPub:hover {
+  color: #fefecc;
+}
+
+
+/*Move to Top Button*/
+#TopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 35px;
+  width: 55px;
+  height: 55px;
+  border: none;
+  cursor: pointer;
+  border-radius: 55px;
+}
+
+/*Mobile View*/
+@media (max-width: 991px){
+  .container .box:nth-child(1) {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+
+  .container .box:nth-child(2) {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+
+  .container .box:nth-child(3) {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+
+  .container .box:nth-child(4) {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+
+  .container .box:nth-child(5) {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+
+  .container .box:nth-child(6) {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+}
+/*Font Styles to Follow:
+font-family: 'Allura', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Bigelow Rules', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Girassol', cursive;
+font-family: 'Jim Nightshade', cursive;
+font-family: 'Romanesco', cursive;
+*/
